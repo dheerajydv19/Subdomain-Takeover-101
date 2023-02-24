@@ -37,13 +37,43 @@ https://hacklido.com/blog/315-subdomain-takeover-the-easy-way
   
    Installation - 
    ```bash
-   sudo apt install amass
+   git clone https://github.com/guelfoweb/knock.git
+   cd knock
+   pip3 install -r requirements.txt
+   ```
+   Usage - 
+   ```bash
+   python3 knockpy.py example.com
+   ```
+4. [assetfinder](https://github.com/tomnomnom/assetfinder)
+  
+   Installation - 
+   ```bash
+   sudo apt install assetfinder
+   ```
+   Usage - 
+   ```bash
+   subfinder -d example.com
+   ```
+
+5. [Altdns](https://github.com/infosec-au/altdns)
+  
+   Installation - 
+   ```bash
+   sudo apt install altdns
    ```
    Usage - 
    ```bash
    amass enum -d example.com
    ```
-4. [assetfinder](https://github.com/tomnomnom/assetfinder)
-5. [Altdns](https://github.com/infosec-au/altdns)
-6. [TheHarvester](https://github.com/laramies/theHarvester)
 
+8. [TheHarvester](https://github.com/laramies/theHarvester)
+  
+   Installation - 
+   ```bash
+   sudo apt install theharvester
+   ```
+   Usage - 
+   ```bash
+   amass enum -d example.com
+   ```
