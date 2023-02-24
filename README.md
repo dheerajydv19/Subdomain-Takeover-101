@@ -53,25 +53,25 @@ https://hacklido.com/blog/315-subdomain-takeover-the-easy-way
    ```
    Usage - 
    ```bash
-   subfinder -d example.com
+   assetfinder --subs-only example.com
    ```
 
-5. [Altdns](https://github.com/infosec-au/altdns)
-  
-   Installation - 
-   ```bash
-   sudo apt install altdns
-   ```
-   Usage - 
-   ```bash
-   amass enum -d example.com
-   ```
 
-8. [TheHarvester](https://github.com/laramies/theHarvester)
+5. [TheHarvester](https://github.com/laramies/theHarvester)
   
    Installation - 
    ```bash
    sudo apt install theharvester
+   ```
+   Usage - 
+   ```bash
+   theHarvester -d example.com -l 500 -b all
+   ```
+6. [Altdns](https://github.com/infosec-au/altdns)
+  
+   Installation - 
+   ```bash
+   sudo apt install altdns
    ```
    Usage - 
    ```bash
